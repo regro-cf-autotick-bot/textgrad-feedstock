@@ -1,5 +1,5 @@
 {% set name = "textgrad" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/textgrad-{{ version }}.tar.gz
-  sha256: da4ab8ef17981698fc5345d371fe274393d3b84ee223f743aac09ec58c92581f
+  sha256: 5f283aa21b70575f50018b7b6545402c61109292ea628f273416699515ebc009
 
 build:
   number: 0
@@ -45,7 +45,7 @@ about:
   license_file: LICENSE
   description: |
     [![Arxiv](https://img.shields.io/badge/arXiv-2406.07496-B31B1B.svg)](https://arxiv.org/abs/2406.07496)
-    
+
     ## TextGrad: Automatic ''Differentiation'' via Text
 
     An autograd engine -- for textual gradients! 
